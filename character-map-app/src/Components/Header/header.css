@@ -1,0 +1,8 @@
+.App-header {
+    display:flex;
+    background-color: rgb(255, 220, 20);
+    padding: 10px;
+    font-size: 34px;
+    font-family: monospace;
+    font-weight: 600;
+}

@@ -1,0 +1,25 @@
+.landing-body {
+    color : white;
+    margin-top: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.title {
+    font-size: 24px;
+    font-family: monospace;
+    font-weight: 400;
+    margin: 15px;
+}
+
+.input-box {
+    background-color : rgba(255, 255, 255, 0.4);
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 5px;
+    height: 40px;
+    width: 100%;
+    margin: 15px;
+    font-size: 24px;
+    font-family: monospace;
+}
