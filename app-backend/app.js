@@ -3,11 +3,17 @@ const { Configuration, OpenAIApi } = require("openai");
 
 const app = express();
 
+const cors = require('cors');
+app.use(cors({
+    // origin: ['https://www.section.io', 'https://www.google.com/']
+    origin: '*'
+}));
+
 app.use(express.json());
 
 const PORT = process.env.PORT || 8080;
 
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY || "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"
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
 // "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"
 
@@ -44,6 +50,7 @@ app.get('/try',async (req, res)=>{
 
     const title = req.query.title;
 
+    console.log(title)
     const sample2 = {
         character1:{character2: "relation", character3: "relation"}
         };

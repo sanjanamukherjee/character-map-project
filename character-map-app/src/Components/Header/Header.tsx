@@ -6,7 +6,7 @@ export function Header(): any {
     return (
         <div className="App-header">
             <div>
-                Chacter_Map_
+                Relationships_Explorer_
             </div>
         </div>
     );

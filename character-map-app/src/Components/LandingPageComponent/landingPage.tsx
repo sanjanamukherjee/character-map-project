@@ -36,7 +36,7 @@ export function LandingPage(props:any): any {
                         className="input-box" 
                     />
                 </div>
-                <div style={{color: "white", backgroundColor: "red"}}>jsbcdc {prompt}</div>
+                {/* <div style={{color: "white", backgroundColor: "red"}}>jsbcdc {prompt}</div> */}
             </div>
         </div>
         

@@ -15,7 +15,7 @@ function App() {
     <Routes>
       <Route path="/" element={<LandingPage />} />
         {/* <Route index /> */}
-      <Route path="map" element={<ReactFlowProvider><CharacterMapPageComponent /> </ReactFlowProvider>} />
+      <Route path="map" element= {<CharacterMapPageComponent/>} />
         {/* <Route path="*" element={<ErrorPage />} /> */}
       {/* </Route> */}
     </Routes>

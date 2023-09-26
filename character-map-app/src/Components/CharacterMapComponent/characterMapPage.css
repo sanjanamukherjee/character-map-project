@@ -1,0 +1,9 @@
+.loader-container{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.834)
+        url("https://cdn.sanity.io/images/1dqplxt1/production/03afd3544fa7542afc5c56eb8744fe165faa6f37-800x600.gif") center
+        no-repeat;
+    z-index: 1;
+}
